@@ -1,31 +1,30 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react'; 
+import PropTypes from 'prop-types'; 
+import Helmet from 'react-helmet'; 
 
 
-import Header from '../components/header'
-import './index.css'
+import Header from '../components/header'; 
+import Searchbar from '../components/searchbar'; 
+import Navbar from '../components/navbar'; 
+
+import './index.css'; 
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div class="mobile">
     <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+        title={data.site.siteMetadata.title}
+        meta={[
+          { name: 'description', content: 'Sample' },
+          { name: 'keywords', content: 'sample, something' },
+        ]}
+      />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */} 
+      <Header /> 
+      <Searchbar /> 
+      <Navbar /> 
+      <div className="mobile articles-container">   
+          {children()} 
+      </div> 
   </div>
 )
 

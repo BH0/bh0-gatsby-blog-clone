@@ -7,7 +7,7 @@ export default function Template({data}) {
     // const post = data.markdownRemark; 
     return ( 
         <div> 
-            <Link to="/">Return home</Link>
+            <Link to="/">Return home</Link> 
             <h2 className="sub-title">{post.frontmatter.title}</h2> 
             <div dangerouslySetInnerHTML={{__html: post.html}} />
         </div> 
