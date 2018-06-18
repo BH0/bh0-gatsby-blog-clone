@@ -33,14 +33,16 @@ div {
 
 .search { 
     padding-top: 0.8em; 
+    padding-bottom: 1em; /* quick fix */ 
 } 
 .search input { /* these are rules just guesses */ 
     border: 0.2px solid silver; 
     width: 100%; 
-    padding-bottom: -0.2px; 
+    /* padding-bottom: -0.2px; */ 
 } 
 .search input:focus { /* these are rules just guesses */ 
     border: 1px solid blue; 
+    padding: 0px; 
 } 
 
 .navigation { 
@@ -60,6 +62,12 @@ div {
     border-bottom-color: blue; 
     text-decoration: underline; /* This is hopefully only tempoary */ 
 } 
+@media only screen and (max-width: 600px) {
+    .navigation a { 
+        font-size: 0.8em; 
+        padding-left: 0.5em;         
+    }    
+}
 
 
 .mobile .articles-container { 
