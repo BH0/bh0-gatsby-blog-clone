@@ -8,6 +8,7 @@ import Searchbar from '../components/searchbar';
 import Navbar from '../components/navbar'; 
 
 import './index.css'; 
+require("prismjs/themes/prism-solarizedlight.css"); 
 
 const Layout = ({ children, data }) => (
   <div class="mobile">

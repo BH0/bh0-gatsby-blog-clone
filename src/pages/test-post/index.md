@@ -12,3 +12,18 @@ To create a blog post, create a folder with the name of the blog's title (may be
 This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. 
 
 ost. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. This is a sample post. 
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+let test = "true"; 
+```
+
+```html
+<b>test</b> 
+``` 
+
+```php
+echo "hi" ; 
+```
+
